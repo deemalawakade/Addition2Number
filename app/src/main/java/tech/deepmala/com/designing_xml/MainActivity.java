@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 int a = Integer.parseInt(etNum1.getText().toString());
                 int b = Integer.parseInt(etNum2.getText().toString());
                 int c=a+b;
-                tvResult.setText(Integer.toString(c));
+                tvResult.setText(""+Integer.toString(c));
             }
         });
 
