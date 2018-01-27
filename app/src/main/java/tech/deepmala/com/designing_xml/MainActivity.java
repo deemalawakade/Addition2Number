@@ -1,5 +1,6 @@
 package tech.deepmala.com.designing_xml;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -33,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
                 int b = Integer.parseInt(etNum2.getText().toString());
                 int c=a+b;
                 tvResult.setText(""+Integer.toString(c));
+
+                Intent intent = new Intent(MainActivity.this,PassingDataUsingIntent.class);
+                intent.putExtra("result",tvResult.getText().toString());
+                intent.putExtra("position",1);
+                startActivity(intent);
+
             }
         });
 
