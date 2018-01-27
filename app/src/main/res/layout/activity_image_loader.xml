@@ -5,22 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="tech.deepmala.com.designing_xml.MainScreen">
+    tools:context="tech.deepmala.com.designing_xml.ImageLoader">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Addition"
-        android:layout_gravity="center"
-        android:id="@+id/btnAddMainScreen"
-        android:textAllCaps="false"/>
-
-    <Button
+        android:text="Button"
+        android:layout_gravity="center"/>
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnImageLoad"
+        android:src="@drawable/ic_launcher_background"
         android:layout_gravity="center"
-        android:text="Image"
-        android:textAllCaps="false"/>
+        android:layout_marginTop="15dp"/>
+
 
 </LinearLayout>

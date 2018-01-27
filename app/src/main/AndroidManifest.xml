@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".LinearL_RelativeL"
             android:label="@string/title_activity_linear_l__relative_l"
@@ -21,9 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PassingDataUsingIntent">
-
-        </activity>
+        <activity android:name=".PassingDataUsingIntent"></activity>
+        <activity android:name=".ImageLoader"></activity>
     </application>
 
 </manifest>
