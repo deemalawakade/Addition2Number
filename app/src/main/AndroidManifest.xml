@@ -21,8 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PassingDataUsingIntent"></activity>
-        <activity android:name=".ImageLoader"></activity>
+        <activity android:name=".PassingDataUsingIntent" />
+        <activity android:name=".ImageLoader" />
+        <activity android:name=".activity.WorkingInActivity"></activity>
     </application>
 
 </manifest>

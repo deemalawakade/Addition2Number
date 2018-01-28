@@ -10,4 +10,10 @@ public class ImageLoader extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_loader);
     }
+
+    @Override
+    protected void onStart() {
+        finish();
+        super.onStart();
+    }
 }
